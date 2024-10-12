@@ -1,0 +1,11 @@
+:root {
+    --backgroundColor: darkgray; 
+    --fontColor: white; 
+}
+/*don't want speically say body colour is a certian colour becuase that becomes tricky when working with js.
+Instead you can declare variables in CSS, which will make it easier to code in js cause you can work with that particular css variable*/
+
+body {
+    background-color: var(--backgroundColor); 
+    color: var(--fontColor); 
+}
